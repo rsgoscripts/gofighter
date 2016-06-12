@@ -35,7 +35,7 @@ public class GOGUI extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 
-		JLabel lblEnterNpcIds = new JLabel("Enter NPC ID's Seperated With \",\":");
+		JLabel lblEnterNpcIds = new JLabel("Enter NPC ID's Separated With \",\":");
 		lblEnterNpcIds.setBounds(10, 11, 179, 14);
 		contentPane.add(lblEnterNpcIds);
 
@@ -122,7 +122,7 @@ public class GOGUI extends JFrame {
 		contentPane.add(lootIds);
 		lootIds.setColumns(10);
 
-		JLabel lblLootId = new JLabel("Enter Loot ID's Seperated With \",\":");
+		JLabel lblLootId = new JLabel("Enter Loot ID's Separated With \",\":");
 		lblLootId.setEnabled(false);
 		lblLootId.setBounds(148, 123, 224, 14);
 		contentPane.add(lblLootId);
